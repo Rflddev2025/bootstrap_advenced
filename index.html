@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto com Bootstrap</title>
+  <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+
+  <header>
+    <h1>Supreme aviões</h1>
+  </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagens/slide_1.jpeg" class="d-block w-100" alt="Imagem 1">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/slide_2.jpeg" class="d-block w-100" alt="Imagem 2">
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/slide_3.jpeg" class="d-block w-100" alt="Imagem 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="imagens/card_1.jpeg" class="card-img-top" alt="Imagem Card 1">
+          <div class="card-body">
+            <h5 class="card-title">Airbus Corporate Jets</h5>
+            <p class="card-text">Um dos modelos mais recentes de jato executivo, lançado em 2020, com capacidade para até 19 passageiros. Possui janelas eletrocrômicas, iluminação LED e cabine espaçosa com áreas de estar e de dormir separadas.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="imagens/card_2.jpg" class="card-img-top" alt="Imagem Card 2">
+          <div class="card-body">
+            <h5 class="card-title">Bombardier Challenger 350</h5>
+            <p class="card-text">Um jato super midsize que pode transportar até 12 passageiros e é indicado para voos longos. </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="imagens/card_3.jpg" class="card-img-top" alt="Imagem Card 3">
+          <div class="card-body">
+            <h5 class="card-title">Airbus Beluga</h5>
+            <p class="card-text">Avião de carga desenvolvido pela Airbus, com características marcantes como o formato semelhante a uma baleia-branca e a capacidade de transportar grandes volumes. </p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
